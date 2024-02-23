@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kode+Mono:wght@400..700&display=swap');
 
 :root {
     --blue:  #92DAD9;
@@ -32,7 +32,7 @@ h1, h2, .edit, .clear {
 }
 
 .task .content .text, #new-task-input {
-    font-family: "Indie Flower", cursive;
+    font-family: "Kode Mono", monospace;
 }
 
 
@@ -60,11 +60,12 @@ h1 {
     flex-direction: column;
     flex: 1 1 0%;
     max-width: 800px;
-    background-color: var(--off-white);
+    background-color: #eeeeee60;
     border-radius: 20px;
     align-items: center;
     padding: 1rem 2rem;
     gap: 1rem;
+    box-shadow: #6b6565 1px 1px 5px,#000000 1px 1px 1px;
 }
 
 .new-task-container {
@@ -81,7 +82,7 @@ h1 {
     border: solid var(--black) 1px;
     padding: 1rem;
     margin-right: -0.2rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 #new-task-input::placeholder {
@@ -171,11 +172,12 @@ h2 {
     width: 100%;
     color: var(--black);
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .task .content .text:not(:read-only) {
-    color: #053e5f;
+    color: #ad0ea0;
+    text-decoration:underline;
 }
 
 .task .buttons {
@@ -193,6 +195,7 @@ h2 {
     width: 35px;
     cursor: pointer;
     transition: 0.4s;
+    margin-left: 5px;
 }
 
 .task .buttons .edit:hover {

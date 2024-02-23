@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
     form.addEventListener('submit', (e) => {
         e.preventDefault();
         const task = input.value;
-        if (task) {
+        if (task && task.length > 1) {
             const task_div_el = document.createElement('div');
             task_div_el.classList.add('task');
 
@@ -43,10 +43,10 @@ window.addEventListener('load', () => {
 
             list_el.appendChild(task_div_el);
 
-            console.log(list_el.childElementCount)
             edit_button_el.addEventListener('click', () => {
                 if (text_el.getAttribute('readonly')) {
                     text_el.removeAttribute('readonly');
+                    text_el.focus();
                     edit_button_el.classList.add('save');
                     edit_button_el.innerText = 'SAVE';
                 } 
@@ -55,6 +55,10 @@ window.addEventListener('load', () => {
                     text_el.setAttribute('readonly', 'readonly');
                     edit_button_el.classList.remove('save');
                     edit_button_el.innerText = 'EDIT';
+
+                    if (text_el.value.length === 0) {
+                        list_el.removeChild(task_div_el);
+                    }
                 }
             });
 
@@ -76,10 +80,6 @@ window.addEventListener('load', () => {
                 body.style.height = "100%";
             }
 
-        }
-        else {
-            const error_el = document.createElement('div');
-            error_el.classList.add('error-container');
         }
     });
 });
