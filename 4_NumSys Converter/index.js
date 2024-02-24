@@ -9,6 +9,8 @@ const numsys_input2 = document.querySelector('#input-slot-2');
 const numsys_title3 = document.querySelector('.title-3');
 const numsys_input3 = document.querySelector('#input-slot-3');
 
+const error_text = document.querySelector('#input-error-text');
+
 const binary_regex = /[2-9]/g;
 const octal_regex = /[8-9]/g;
 const hexa_regex = /[A-Fa-f]/g;
@@ -33,6 +35,11 @@ const numsys_elements = [
         name: "Hexadecimal",
         titles: ["Binary", "Octal", "Decimal"],
         values: []
+    },
+    {
+        name: "Error",
+        titles: [],
+        values: ["Input Error!", "Input Error!", "Input Error!"]
     }
 ]
 
@@ -74,35 +81,50 @@ function updateElements() {
         }
     }   
     else {
-        console.log("Regex");
+        // numsys_elements[4].titles[0] = 
+        // numsys_elements[4].titles[1] = 
+        // numsys_elements[4].titles[2] = 
+        console.log("regex");
+        update(numsys_elements[4]);
     }
 }
 
 function update(obj) {
-    numsys_title1.innerText = obj.titles[0];
-    numsys_title2.innerText = obj.titles[1];
-    numsys_title3.innerText = obj.titles[2];
+    if (numsys_elements.name != "Error") {
+        numsys_title1.innerText = obj.titles[0];
+        numsys_title2.innerText = obj.titles[1];
+        numsys_title3.innerText = obj.titles[2];
+        error_text.style.display = "none";
+    }
+    else {
+        error_text.style.display = "inline-block";
+    }
+
     numsys_input1.value = obj.values[0];
     numsys_input2.value = obj.values[1];
     numsys_input3.value = obj.values[2];
+
 }
 
 function validInputCheck(value, base) {
+    if (value.match(/\d/) != true && value.match(hexa_regex) != true) {
+        return false;
+    }
     switch(base) {
         case "2":
             if(value.match(binary_regex)) {
                 return false;
             }
-            else {
-                return true;
-            }
+        else {
+            return true;
+        }
         case "8":
             if(value.match(octal_regex)) {
                 return false;
             }
             else {
                 return true;
-        }
+            }
     }
     return true;
 }
@@ -127,17 +149,17 @@ function hexadecimalCharacters(value, string) {
 
     else if (string === "toNum") {
         switch(value) {
-            case "A" || "a":
+            case "A":
                 return "10";
-            case "B" || "b":
+            case "B":
                 return "11";
-            case "C" || "c":
+            case "C":
                 return "12";
-            case "D" || "d":
+            case "D":
                 return "13";
-            case "E" || "e":
+            case "E":
                 return "14";
-            case "F" || "f":
+            case "F":
                 return "15";
         }
     }
@@ -194,7 +216,8 @@ function convertToDecimal(value, base) {
     console.log(power_range);
     for (let i = 0 ; i < sentinel ; i++) {
         if(value[i].match(hexa_regex)) {
-            let hexaChar = hexadecimalCharacters(value[i], "toNum");
+            let value_upper = value[i].toUpperCase();
+            let hexaChar = hexadecimalCharacters(value_upper, "toNum");
             decimal_sum += parseInt(hexaChar) * (Math.pow(base, power_range - 1));
         }
         else {

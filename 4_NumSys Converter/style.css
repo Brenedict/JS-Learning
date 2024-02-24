@@ -2,3 +2,7 @@
     width: 80%;
     font-size: 1.25rem;
 }
+
+#input-error-text {
+    display:none;
+}
