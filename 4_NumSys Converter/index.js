@@ -11,9 +11,9 @@ const numsys_input3 = document.querySelector('#input-slot-3');
 
 const error_text = document.querySelector('#input-error-text');
 
-const binary_regex = /[2-9]/g;
-const octal_regex = /[8-9]/g;
-const hexa_regex = /[A-Fa-f]/g;
+const binary_regex = /[2-9A-Z]/gi;
+const octal_regex = /[8-9A-Z]/gi;
+const hexa_regex = /[A-F]/gi;
 
 const numsys_elements = [
     {
@@ -81,43 +81,48 @@ function updateElements() {
         }
     }   
     else {
-        // numsys_elements[4].titles[0] = 
-        // numsys_elements[4].titles[1] = 
-        // numsys_elements[4].titles[2] = 
-        console.log("regex");
+
         update(numsys_elements[4]);
     }
 }
 
 function update(obj) {
-    if (numsys_elements.name != "Error") {
+    let class_check = "";
+    if (obj.name !== "Error") {
         numsys_title1.innerText = obj.titles[0];
         numsys_title2.innerText = obj.titles[1];
         numsys_title3.innerText = obj.titles[2];
         error_text.style.display = "none";
+        numsys_input1.classList.remove("error");
+        numsys_input2.classList.remove("error");
+        numsys_input3.classList.remove("error");
+        inputValue.classList.remove("error");
     }
     else {
         error_text.style.display = "inline-block";
+        numsys_input1.classList.add("error");
+        numsys_input2.classList.add("error");
+        numsys_input3.classList.add("error");
+        inputValue.classList.add("error");
     }
 
     numsys_input1.value = obj.values[0];
     numsys_input2.value = obj.values[1];
     numsys_input3.value = obj.values[2];
-
 }
 
 function validInputCheck(value, base) {
-    if (value.match(/\d/) != true && value.match(hexa_regex) != true) {
-        return false;
-    }
+    for (let i=0;i<value.length;i++) 
+        if(!value[i].match(/[\dA-F]/gi)) return false;
+    
     switch(base) {
         case "2":
             if(value.match(binary_regex)) {
                 return false;
             }
-        else {
-            return true;
-        }
+            else {
+                return true;
+            }
         case "8":
             if(value.match(octal_regex)) {
                 return false;
@@ -125,8 +130,9 @@ function validInputCheck(value, base) {
             else {
                 return true;
             }
+        default: 
+            return true;
     }
-    return true;
 }
 
 function hexadecimalCharacters(value, string) {
@@ -202,12 +208,9 @@ function convertFromDecimal(value, base) {
         converted += tempArr[i];
         j++;
     }
-
+    if(converted === "") converted = "0";
     return converted;
 }
-
-
-
 
 function convertToDecimal(value, base) {
     let power_range = value.length;
