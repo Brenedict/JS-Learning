@@ -27,7 +27,7 @@ main {
     background-color: var(--dark);
     color: var(--white);
     flex: 1 1 0%;
-    width: clamp(500px, 70vw, 80vw);
+    width: clamp(300px, 70vw, 80vw);
     border-radius: 20px;
 }
 
@@ -37,12 +37,12 @@ header {
     background-color: var(--dark);
     color: var(--white);
     flex: 1 1 0%;
-    width: clamp(500px, 70vw, 80vw);
+    width: clamp(300px, 70vw, 80vw);
     border-radius: 20px;
 }
 
 header h1 {
-    font-size: clamp(2rem, 2.3rem, 3vw);
+    font-size: clamp(1.5rem, 2.5rem, 4vw);
     margin-bottom: 0.5rem;
 }
 
@@ -88,7 +88,7 @@ section {
 }
 
 main h2 {
-    font-size: clamp(1.5rem, 2rem, 2rem);
+    font-size: clamp(1rem, 1.8rem, 5vmin);
     margin-bottom: 0.5rem;
 }
 
@@ -110,4 +110,12 @@ main h2 {
 .error {
     border: solid 1px rgb(255, 47, 47);
     color: rgb(255, 47, 47);
+}
+
+@media only screen and (max-width: 600px) {
+
+    header, main {
+        padding-right: 1.9rem;
+    }
+
 }

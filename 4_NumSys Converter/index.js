@@ -130,6 +130,11 @@ function validInputCheck(value, base) {
             else {
                 return true;
             }
+        case "10":
+            if (value.match(/[A-F]/i)) {
+                return false
+            }
+            
         default: 
             return true;
     }
@@ -231,3 +236,32 @@ function convertToDecimal(value, base) {
     }
     return decimal_sum;  
 }
+
+
+//Last ditch effort at select resizing
+const selectTextChange = [
+    {
+        name: "Normal",
+        text: ["Binary (2)", "Octal (8)", "Decimal (10)", "Hexadecimal (16)"]
+    },
+    {
+        name: "Shortened",
+        text: ["(2)", "(8)", "(10)", "(16)"]
+    }
+]
+
+window.addEventListener('resize', () => {
+    const window_width = window.innerWidth;
+    selectValue.querySelectorAll('option');
+    let select_text = 0;
+    if (window_width <= 600) {
+        select_text = 1;
+    } else {
+        select_text = 0;
+    }
+
+    selectValue[0].innerText = selectTextChange[select_text].text[0];
+    selectValue[1].innerText = selectTextChange[select_text].text[1];
+    selectValue[2].innerText = selectTextChange[select_text].text[2];
+    selectValue[3].innerText = selectTextChange[select_text].text[3];
+});
