@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body.correct {
+    background-color: aqua;
+}
+
+body.wrong {
+    background-color: red;
+}
+
+.hide {
+    display: none;
+}

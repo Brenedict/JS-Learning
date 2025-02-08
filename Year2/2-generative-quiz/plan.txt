@@ -1,0 +1,15 @@
+1. Construct main components
+    - One main container to house everything in one page (use "hide" class)
+    - Start menu
+    - Questions page
+        - Answer decision
+        - Show correct answer 
+        - Next button
+        - Count score
+    - End Page 
+        - Show tallied score
+        - Allow for restart
+2. Allow single question generation as per provided by user
+    - Use data structure that allows for question generation
+    - Answer (buttons) generation with correct/incorrect class/tag
+3. Complete thematic design
