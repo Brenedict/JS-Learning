@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: teal;
+}
+
+.divContainer {
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 1.2rem 1.2rem 1.2rem 1.2rem rgba(0, 0, 0, 0.3);
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 1rem 1rem;
+    width: 100%;
+    margin: 1rem 0;
+    border-style: none;
+    background-color: #e9e9e9;
+}
+
+input:focus {
+    background-color: #c5bebe;
+    outline: none;
+}
+
+#registerButton {
+    background-color: teal;
+    color: white;
+    width: 100%;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#registerButton:hover {
+    opacity: 1;
+}
+

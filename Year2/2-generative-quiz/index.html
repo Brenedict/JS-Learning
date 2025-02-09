@@ -8,10 +8,28 @@
 </head>
 <body>
     <main class="main-container">
-        <section class="start-container" id="start-container">
-            <button class="btn btn-start" onclick="startQuiz()">Start</button>
+        <section class="end-container" id="end-container">
+            <p id="score">YOU SCORED: 60/60</p>
+            <div class="result-container">
+                <!-- Displays all questions and each mark -->
+                <div id="question-results-container">
+
+                </div>
+                <div id="button-percentage-container">
+                    <p id="score-percentage">100%</p>
+                    <button id="button-restart" onclick="location.reload()">restart</button>
+                </div>
+            </div>
+        </section>
+        <section class="start-container hide" id="start-container">
+            <div class="title-container">
+                <span id="simple-text">SIMPLE</span>
+                <span id="quiz-app-text">QUIZ APP</span>
+            </div>
+            <button class="btn btn-start" onclick="startQuiz()">START</button>
         </section>
         <section class="questions-container hide" id="questions-container">
+            <p id="question-number">Question </p>
             <p id="question"></p>
             <div class="buttons-grid" id="buttons-grid">
                 <!-- Button children to be appended -->
