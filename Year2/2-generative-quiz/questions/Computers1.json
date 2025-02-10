@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What does CPU stand for?",
+        "answers": [
+            {"text": "Central Processing Unit", "correct": true},
+            {"text": "Computer Personal Unit", "correct": false},
+            {"text": "Central Peripheral Unit", "correct": false},
+            {"text": "Core Processing Utility", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of the following is an example of an input device?",
+        "answers": [
+            {"text": "Keyboard", "correct": true},
+            {"text": "Monitor", "correct": false},
+            {"text": "Speaker", "correct": false},
+            {"text": "Printer", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the main function of an operating system?",
+        "answers": [
+            {"text": "Manages hardware and software resources", "correct": true},
+            {"text": "Acts as a search engine", "correct": false},
+            {"text": "Provides power to the computer", "correct": false},
+            {"text": "Stores all files permanently", "correct": false}
+        ]
+    },
+    {
+        "question": "Which file extension is commonly used for an image file?",
+        "answers": [
+            {"text": ".jpg", "correct": true},
+            {"text": ".exe", "correct": false},
+            {"text": ".txt", "correct": false},
+            {"text": ".mp3", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the purpose of a firewall in computing?",
+        "answers": [
+            {"text": "To block unauthorized access to a network", "correct": true},
+            {"text": "To store backup files", "correct": false},
+            {"text": "To speed up the internet connection", "correct": false},
+            {"text": "To fix hardware issues", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of the following is NOT an example of an operating system?",
+        "answers": [
+            {"text": "Microsoft Office", "correct": true},
+            {"text": "Windows", "correct": false},
+            {"text": "Linux", "correct": false},
+            {"text": "macOS", "correct": false}
+        ]
+    },
+    {
+        "question": "What does HTTP stand for?",
+        "answers": [
+            {"text": "Hypertext Transfer Protocol", "correct": true},
+            {"text": "High-Tech Transmission Process", "correct": false},
+            {"text": "Hyperlink and Text Transfer Program", "correct": false},
+            {"text": "Home Technology Transfer Protocol", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of these storage devices has the largest capacity?",
+        "answers": [
+            {"text": "Hard Disk Drive (HDD)", "correct": true},
+            {"text": "CD-ROM", "correct": false},
+            {"text": "USB Flash Drive", "correct": false},
+            {"text": "Floppy Disk", "correct": false}
+        ]
+    },
+    {
+        "question": "Which programming language is primarily used for web development?",
+        "answers": [
+            {"text": "JavaScript", "correct": true},
+            {"text": "Python", "correct": false},
+            {"text": "C++", "correct": false},
+            {"text": "Swift", "correct": false}
+        ]
+    },
+    {
+        "question": "Which key combination is used to copy text on a Windows computer?",
+        "answers": [
+            {"text": "Ctrl + C", "correct": true},
+            {"text": "Ctrl + V", "correct": false},
+            {"text": "Ctrl + X", "correct": false},
+            {"text": "Ctrl + Z", "correct": false}
+        ]
+    }
+]

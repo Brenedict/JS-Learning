@@ -103,12 +103,23 @@ body {
     cursor: pointer;
 }
 
+.show-correct:disabled {
+    background-color: var(--black);
+    border: 3px solid var(--black);
+    color: var(--yellow);
+}
+
+.show-incorrect:disabled {
+    background-color: var(--yellow);
+    border: 3px solid var(--black);
+    color: var(--black);
+}
+
 .end-container {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: wheat;
 }
 
 .result-container {
