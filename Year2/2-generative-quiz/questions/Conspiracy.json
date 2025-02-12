@@ -1,0 +1,182 @@
+[
+    {
+        "question": "Which secret society is often accused of controlling world events behind the scenes?",
+        "answers": [
+            {"text": "Freemasons", "correct": false},
+            {"text": "Illuminati", "correct": true},
+            {"text": "Templars", "correct": false},
+            {"text": "Bohemian Grove", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the name of the alleged secret government project that some believe involves time travel and mind control?",
+        "answers": [
+            {"text": "MKUltra", "correct": false},
+            {"text": "Montauk Project", "correct": true},
+            {"text": "Operation Paperclip", "correct": false},
+            {"text": "Philadelphia Experiment", "correct": false}
+        ]
+    },
+    {
+        "question": "Which famous incident is often cited as proof of extraterrestrial contact with Earth?",
+        "answers": [
+            {"text": "Roswell UFO Crash", "correct": true},
+            {"text": "Bermuda Triangle Disappearance", "correct": false},
+            {"text": "Dyatlov Pass Incident", "correct": false},
+            {"text": "Stonehenge Construction", "correct": false}
+        ]
+    },
+    {
+        "question": "What conspiracy theory suggests that the moon landing was faked by NASA?",
+        "answers": [
+            {"text": "Apollo Hoax", "correct": true},
+            {"text": "Moon Mirage", "correct": false},
+            {"text": "Lunar Cover-Up", "correct": false},
+            {"text": "Deep Space Deception", "correct": false}
+        ]
+    },
+    {
+        "question": "Which global event is often linked to the 'New World Order' conspiracy theory?",
+        "answers": [
+            {"text": "World War II", "correct": false},
+            {"text": "9/11 Attacks", "correct": true},
+            {"text": "Cuban Missile Crisis", "correct": false},
+            {"text": "Cold War", "correct": false}
+        ]
+    },
+    {
+        "question": "What is 'Project Blue Beam' alleged to be?",
+        "answers": [
+            {"text": "A mind control operation", "correct": false},
+            {"text": "A NASA plan to create a fake alien invasion", "correct": true},
+            {"text": "A weather manipulation project", "correct": false},
+            {"text": "A deep-sea surveillance program", "correct": false}
+        ]
+    },
+    {
+        "question": "Which famous group is rumored to control the entertainment industry?",
+        "answers": [
+            {"text": "The Rockefellers", "correct": false},
+            {"text": "The Bilderberg Group", "correct": false},
+            {"text": "The Illuminati", "correct": true},
+            {"text": "The Freemasons", "correct": false}
+        ]
+    },
+    {
+        "question": "Which location is often speculated to house advanced alien technology?",
+        "answers": [
+            {"text": "Area 51", "correct": true},
+            {"text": "The Pentagon", "correct": false},
+            {"text": "Deep Underground Military Base (DUMB)", "correct": false},
+            {"text": "Fort Knox", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the theory behind 'chemtrails'?",
+        "answers": [
+            {"text": "They are used for geoengineering and population control", "correct": true},
+            {"text": "They are simply water vapor from planes", "correct": false},
+            {"text": "They are a sign of alien communication", "correct": false},
+            {"text": "They contain experimental vaccines", "correct": false}
+        ]
+    },
+    {
+        "question": "Which financial institution is often at the center of economic conspiracy theories?",
+        "answers": [
+            {"text": "The Federal Reserve", "correct": true},
+            {"text": "The World Bank", "correct": false},
+            {"text": "The United Nations", "correct": false},
+            {"text": "Goldman Sachs", "correct": false}
+        ]
+    },
+    {
+        "question": "What famous ship disaster is linked to conspiracy theories involving the Federal Reserve?",
+        "answers": [
+            {"text": "Titanic", "correct": true},
+            {"text": "Lusitania", "correct": false},
+            {"text": "USS Maine", "correct": false},
+            {"text": "Andrea Doria", "correct": false}
+        ]
+    },
+    {
+        "question": "Who is often suspected of being a time traveler due to photographic evidence?",
+        "answers": [
+            {"text": "Nikola Tesla", "correct": true},
+            {"text": "Albert Einstein", "correct": false},
+            {"text": "Isaac Newton", "correct": false},
+            {"text": "Jules Verne", "correct": false}
+        ]
+    },
+    {
+        "question": "What do some conspiracy theorists believe about the Denver International Airport?",
+        "answers": [
+            {"text": "It contains a secret underground bunker for elites", "correct": true},
+            {"text": "It was built by aliens", "correct": false},
+            {"text": "It has hidden portals to another dimension", "correct": false},
+            {"text": "It is an abandoned CIA project", "correct": false}
+        ]
+    },
+    {
+        "question": "Which famous scientist is believed to have uncovered free energy technology?",
+        "answers": [
+            {"text": "Nikola Tesla", "correct": true},
+            {"text": "Thomas Edison", "correct": false},
+            {"text": "Isaac Newton", "correct": false},
+            {"text": "Stephen Hawking", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the alleged goal of the Georgia Guidestones?",
+        "answers": [
+            {"text": "To promote global depopulation", "correct": true},
+            {"text": "To mark an ancient burial ground", "correct": false},
+            {"text": "To reveal the secrets of Atlantis", "correct": false},
+            {"text": "To function as a solar calendar", "correct": false}
+        ]
+    },
+    {
+        "question": "Which global organization is often linked to theories about a one-world government?",
+        "answers": [
+            {"text": "United Nations", "correct": true},
+            {"text": "World Health Organization", "correct": false},
+            {"text": "Interpol", "correct": false},
+            {"text": "NATO", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the Hollow Earth theory?",
+        "answers": [
+            {"text": "That the Earth is empty inside and houses secret civilizations", "correct": true},
+            {"text": "That the core of the Earth is actually a supercomputer", "correct": false},
+            {"text": "That there are massive underground oceans larger than surface oceans", "correct": false},
+            {"text": "That the Earth is gradually becoming hollow due to climate change", "correct": false}
+        ]
+    },
+    {
+        "question": "Which political figure is often rumored to be a reptilian shapeshifter?",
+        "answers": [
+            {"text": "Queen Elizabeth II", "correct": true},
+            {"text": "Vladimir Putin", "correct": false},
+            {"text": "Barack Obama", "correct": false},
+            {"text": "Joe Biden", "correct": false}
+        ]
+    },
+    {
+        "question": "What is believed to be stored inside Vatican City's secret archives?",
+        "answers": [
+            {"text": "Lost books of the Bible and ancient knowledge", "correct": true},
+            {"text": "Alien artifacts", "correct": false},
+            {"text": "Evidence of time travel", "correct": false},
+            {"text": "The true remains of Jesus Christ", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the Great Reset conspiracy theory about?",
+        "answers": [
+            {"text": "A plan to restructure the global economy and power balance", "correct": true},
+            {"text": "A cyber attack meant to destroy financial markets", "correct": false},
+            {"text": "A way to erase all personal debt", "correct": false},
+            {"text": "An initiative to reset climate change", "correct": false}
+        ]
+    }
+]

@@ -2,10 +2,10 @@
     {
         "question": "What does CPU stand for?",
         "answers": [
-            {"text": "Central Processing Unit", "correct": true},
-            {"text": "Computer Personal Unit", "correct": false},
             {"text": "Central Peripheral Unit", "correct": false},
-            {"text": "Core Processing Utility", "correct": false}
+            {"text": "Central Processing Unit", "correct": true},
+            {"text": "Core Processing Utility", "correct": false},
+            {"text": "Computer Personal Unit", "correct": false}
         ]
     },
     {
@@ -13,80 +13,170 @@
         "answers": [
             {"text": "Keyboard", "correct": true},
             {"text": "Monitor", "correct": false},
-            {"text": "Speaker", "correct": false},
-            {"text": "Printer", "correct": false}
+            {"text": "Printer", "correct": false},
+            {"text": "Speaker", "correct": false}
         ]
     },
     {
         "question": "What is the main function of an operating system?",
         "answers": [
             {"text": "Manages hardware and software resources", "correct": true},
+            {"text": "Stores all files permanently", "correct": false},
             {"text": "Acts as a search engine", "correct": false},
-            {"text": "Provides power to the computer", "correct": false},
-            {"text": "Stores all files permanently", "correct": false}
+            {"text": "Provides power to the computer", "correct": false}
         ]
     },
     {
         "question": "Which file extension is commonly used for an image file?",
         "answers": [
-            {"text": ".jpg", "correct": true},
             {"text": ".exe", "correct": false},
             {"text": ".txt", "correct": false},
+            {"text": ".jpg", "correct": true},
             {"text": ".mp3", "correct": false}
         ]
     },
     {
         "question": "What is the purpose of a firewall in computing?",
         "answers": [
+            {"text": "Store backup files", "correct": false},
+            {"text": "Fix hardware issues", "correct": false},
             {"text": "To block unauthorized access to a network", "correct": true},
-            {"text": "To store backup files", "correct": false},
-            {"text": "To speed up the internet connection", "correct": false},
-            {"text": "To fix hardware issues", "correct": false}
+            {"text": "Speed up the internet connection", "correct": false}
         ]
     },
     {
         "question": "Which of the following is NOT an example of an operating system?",
         "answers": [
-            {"text": "Microsoft Office", "correct": true},
-            {"text": "Windows", "correct": false},
             {"text": "Linux", "correct": false},
+            {"text": "Windows", "correct": false},
+            {"text": "Microsoft Office", "correct": true},
             {"text": "macOS", "correct": false}
         ]
     },
     {
         "question": "What does HTTP stand for?",
         "answers": [
+            {"text": "Hyperlink and Text Transfer Program", "correct": false},
             {"text": "Hypertext Transfer Protocol", "correct": true},
             {"text": "High-Tech Transmission Process", "correct": false},
-            {"text": "Hyperlink and Text Transfer Program", "correct": false},
             {"text": "Home Technology Transfer Protocol", "correct": false}
         ]
     },
     {
         "question": "Which of these storage devices has the largest capacity?",
         "answers": [
-            {"text": "Hard Disk Drive (HDD)", "correct": true},
             {"text": "CD-ROM", "correct": false},
             {"text": "USB Flash Drive", "correct": false},
-            {"text": "Floppy Disk", "correct": false}
+            {"text": "Floppy Disk", "correct": false},
+            {"text": "Hard Disk Drive (HDD)", "correct": true}
         ]
     },
     {
         "question": "Which programming language is primarily used for web development?",
         "answers": [
-            {"text": "JavaScript", "correct": true},
+            {"text": "Swift", "correct": false},
             {"text": "Python", "correct": false},
-            {"text": "C++", "correct": false},
-            {"text": "Swift", "correct": false}
+            {"text": "JavaScript", "correct": true},
+            {"text": "C++", "correct": false}
         ]
     },
     {
         "question": "Which key combination is used to copy text on a Windows computer?",
         "answers": [
+            {"text": "Ctrl + Z", "correct": false},
             {"text": "Ctrl + C", "correct": true},
             {"text": "Ctrl + V", "correct": false},
-            {"text": "Ctrl + X", "correct": false},
-            {"text": "Ctrl + Z", "correct": false}
+            {"text": "Ctrl + X", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the primary function of RAM in a computer?",
+        "answers": [
+            {"text": "Storing data permanently", "correct": false},
+            {"text": "Running active programs and processes", "correct": true},
+            {"text": "Cooling down the processor", "correct": false},
+            {"text": "Powering the display", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of these is an example of an open-source operating system?",
+        "answers": [
+            {"text": "macOS", "correct": false},
+            {"text": "Windows 10", "correct": false},
+            {"text": "Linux", "correct": true},
+            {"text": "iOS", "correct": false}
+        ]
+    },
+    {
+        "question": "What does SSD stand for in computing?",
+        "answers": [
+            {"text": "Solid State Drive", "correct": true},
+            {"text": "System Storage Disk", "correct": false},
+            {"text": "Smart Software Device", "correct": false},
+            {"text": "Secure System Data", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of the following is a web browser?",
+        "answers": [
+            {"text": "Google Chrome", "correct": true},
+            {"text": "Microsoft Edge", "correct": true},
+            {"text": "Adobe Photoshop", "correct": false},
+            {"text": "Windows Explorer", "correct": false}
+        ]
+    },
+    {
+        "question": "What type of software is Microsoft Excel?",
+        "answers": [
+            {"text": "Spreadsheet software", "correct": true},
+            {"text": "Operating system", "correct": false},
+            {"text": "Web browser", "correct": false},
+            {"text": "Database management system", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of these is a strong password example?",
+        "answers": [
+            {"text": "123456", "correct": false},
+            {"text": "password123", "correct": false},
+            {"text": "P@ssw0rd!98*", "correct": true},
+            {"text": "qwerty", "correct": false}
+        ]
+    },
+    {
+        "question": "What does 'phishing' refer to in cybersecurity?",
+        "answers": [
+            {"text": "A type of malware", "correct": false},
+            {"text": "An attempt to trick users into giving personal information", "correct": true},
+            {"text": "A secure data encryption method", "correct": false},
+            {"text": "A method of testing network speed", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of these is an example of cloud storage?",
+        "answers": [
+            {"text": "Google Drive", "correct": true},
+            {"text": "Local hard drive", "correct": false},
+            {"text": "USB Flash Drive", "correct": false},
+            {"text": "CD-ROM", "correct": false}
+        ]
+    },
+    {
+        "question": "What is two-factor authentication (2FA)?",
+        "answers": [
+            {"text": "A type of password manager", "correct": false},
+            {"text": "A security feature requiring two forms of verification", "correct": true},
+            {"text": "A method for encrypting emails", "correct": false},
+            {"text": "A hardware component in secure devices", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of the following algorithms has an average-case time complexity of O(n log n) but can degrade to O(n²) in its worst case without additional optimizations?",
+        "answers": [
+            {"text": "QuickSort", "correct": true},
+            {"text": "MergeSort", "correct": false},
+            {"text": "HeapSort", "correct": false},
+            {"text": "RadixSort", "correct": false}
         ]
     }
 ]

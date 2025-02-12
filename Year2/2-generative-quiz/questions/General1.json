@@ -1,0 +1,137 @@
+[
+    {
+        "question": "Which country has the largest population in the world as of 2024?",
+        "answers": [
+            {"text": "India", "correct": true},
+            {"text": "United States", "correct": false},
+            {"text": "China", "correct": false},
+            {"text": "Indonesia", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the capital of Canada?",
+        "answers": [
+            {"text": "Montreal", "correct": false},
+            {"text": "Ottawa", "correct": true},
+            {"text": "Toronto", "correct": false},
+            {"text": "Vancouver", "correct": false}
+        ]
+    },
+    {
+        "question": "Which ocean is the largest by surface area?",
+        "answers": [
+            {"text": "Indian Ocean", "correct": false},
+            {"text": "Atlantic Ocean", "correct": false},
+            {"text": "Pacific Ocean", "correct": true},
+            {"text": "Arctic Ocean", "correct": false}
+        ]
+    },
+    {
+        "question": "Who wrote the play 'Romeo and Juliet'?",
+        "answers": [
+            {"text": "Jane Austen", "correct": false},
+            {"text": "Mark Twain", "correct": false},
+            {"text": "William Shakespeare", "correct": true},
+            {"text": "Charles Dickens", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of these countries is NOT in South America?",
+        "answers": [
+            {"text": "Peru", "correct": false},
+            {"text": "Argentina", "correct": false},
+            {"text": "Chile", "correct": false},
+            {"text": "Panama", "correct": true}
+        ]
+    },
+    {
+        "question": "Which element has the chemical symbol 'O'?",
+        "answers": [
+            {"text": "Oxygen", "correct": true},
+            {"text": "Gold", "correct": false},
+            {"text": "Osmium", "correct": false},
+            {"text": "Oganesson", "correct": false}
+        ]
+    },
+    {
+        "question": "What year did World War II end?",
+        "answers": [
+            {"text": "1918", "correct": false},
+            {"text": "1950", "correct": false},
+            {"text": "1939", "correct": false},
+            {"text": "1945", "correct": true}
+        ]
+    },
+    {
+        "question": "Which African country was never colonized?",
+        "answers": [
+            {"text": "South Africa", "correct": false},
+            {"text": "Ethiopia", "correct": true},
+            {"text": "Kenya", "correct": false},
+            {"text": "Ghana", "correct": false}
+        ]
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "answers": [
+            {"text": "Jupiter", "correct": false},
+            {"text": "Venus", "correct": false},
+            {"text": "Saturn", "correct": false},
+            {"text": "Mars", "correct": true}
+        ]
+    },
+    {
+        "question": "What is the currency of Japan?",
+        "answers": [
+            {"text": "Peso", "correct": false},
+            {"text": "Rupee", "correct": false},
+            {"text": "Won", "correct": false},
+            {"text": "Yen", "correct": true}
+        ]
+    },
+    {
+        "question": "Which famous structure is located in Agra, India?",
+        "answers": [
+            {"text": "Great Wall of China", "correct": false},
+            {"text": "Eiffel Tower", "correct": false},
+            {"text": "Machu Picchu", "correct": false},
+            {"text": "Taj Mahal", "correct": true}
+        ]
+    },
+    {
+        "question": "Which Nobel Prize category was first awarded in 1969?",
+        "answers": [
+            {"text": "Economics", "correct": true},
+            {"text": "Physics", "correct": false},
+            {"text": "Literature", "correct": false},
+            {"text": "Peace", "correct": false}
+        ]
+    },
+    {
+        "question": "Which language has the most native speakers worldwide?",
+        "answers": [
+            {"text": "Spanish", "correct": false},
+            {"text": "Hindi", "correct": false},
+            {"text": "English", "correct": false},
+            {"text": "Mandarin Chinese", "correct": true}
+        ]
+    },
+    {
+        "question": "What is the national flower of Japan?",
+        "answers": [
+            {"text": "Orchid", "correct": false},
+            {"text": "Lotus", "correct": false},
+            {"text": "Cherry Blossom", "correct": true},
+            {"text": "Rose", "correct": false}
+        ]
+    },
+    {
+        "question": "Who was the first person to walk on the Moon?",
+        "answers": [
+            {"text": "Yuri Gagarin", "correct": false},
+            {"text": "Buzz Aldrin", "correct": false},
+            {"text": "Michael Collins", "correct": false},
+            {"text": "Neil Armstrong", "correct": true}
+        ]
+    }
+]

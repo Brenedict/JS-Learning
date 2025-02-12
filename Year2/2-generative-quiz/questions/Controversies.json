@@ -1,0 +1,142 @@
+[
+    {
+        "question": "Something significant happened in Tiananmen Square in 1989, but discussions about it are heavily censored in China.",
+        "answers": [
+            {"text": "True", "correct": true},
+            {"text": "False", "correct": false}
+        ]
+    },
+    {
+        "question": "The CIA was involved in secretly distributing crack cocaine in U.S. communities during the 1980s.",
+        "answers": [
+            {"text": "True", "correct": true},
+            {"text": "False", "correct": false}
+        ]
+    },
+    {
+        "question": "The U.S. government had prior knowledge of the 9/11 attacks but allowed them to happen for political reasons.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "The Epstein case involved high-profile figures, but all potential co-conspirators have been fully investigated.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "The 2020 U.S. Presidential election was stolen through widespread voter fraud.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "Governments around the world have used mass surveillance programs to monitor their citizens without their consent.",
+        "answers": [
+            {"text": "True", "correct": true},
+            {"text": "False", "correct": false}
+        ]
+    },
+    {
+        "question": "The Gulf of Tonkin incident, which led to U.S. involvement in the Vietnam War, was entirely fabricated.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "Julian Assange and Edward Snowden were hailed as heroes by all world governments for exposing classified information.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "The U.S. invasion of Iraq in 2003 was justified by confirmed evidence of weapons of mass destruction.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "Some major pharmaceutical companies have suppressed natural treatments in favor of profitable drugs.",
+        "answers": [
+            {"text": "True", "correct": true},
+            {"text": "False", "correct": false}
+        ]
+    },
+    {
+        "question": "JFK's assassination was conclusively carried out by Lee Harvey Oswald with no other involvement.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "The Bilderberg Group is a secretive meeting of world elites, but it has no actual influence on global politics.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "North Korean citizens have full access to the internet and free media.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "There is strong, publicly available evidence that the Earth is ruled by a secret group of lizard people.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "The Iran-Contra Affair involved the illegal sale of arms to Iran to fund rebel groups in Central America.",
+        "answers": [
+            {"text": "True", "correct": true},
+            {"text": "False", "correct": false}
+        ]
+    },
+    {
+        "question": "The U.S. military has never experimented with weather modification technologies.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "The Russian government has never interfered in foreign elections.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "The Catholic Church has been fully transparent about all cases of sexual abuse committed by clergy members.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "Mainstream social media platforms have never censored content for political reasons.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "Governments worldwide have always been completely honest about the presence of extraterrestrial life.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    }
+]

@@ -43,18 +43,39 @@ body {
 }
 
 #simple-text {
-    font-size: 20vmin;
+    font-size: 25vmin;
     margin-bottom: -35px;
 }
 
 #quiz-app-text {
-    font-size: 16vmin;
+    font-size: 20vmin;
     color: var(--yellow);
     -webkit-text-stroke: 2px var(--black);
 }
 
-.btn-start {
+.start-menu-clickables {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#questionnaires-select {
+    font-size: 1.2rem;
+    text-align: center;
     width: 30vmin;
+    background-color: var(--white);
+    border-radius: 20px;
+    border: 1px solid var(--black);
+    padding: 5px;
+    background-color: var(--yellow);
+    cursor: pointer;
+}
+
+.btn-start {
+    font-size: 1.2rem;
+    width: 24vmin;
     background-color: var(--white);
     border-radius: 20px;
     border: 1px solid var(--black);
@@ -70,9 +91,14 @@ body {
     padding: 50px 10px 10px 10px;
 }
 
+#questionanire-details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
 #question-number {
-    color: var(--white);
-    -webkit-text-stroke: 1px var(--black);
+    color: var(--black);
     letter-spacing: 2px;
     font-size: 1rem;
 }
@@ -140,7 +166,7 @@ body {
 }
 
 .question-entry {
-    background-color: #f0f1f1;
+    background-color: rgb(252, 152, 116);
     padding: 5px;
     font-size: 1.2rem;
     text-align: center;
@@ -148,9 +174,12 @@ body {
     border-width: 0px 0px 1px 0px;
 }
 
+.question-entry-correct {
+    background-color: rgb(119, 255, 119);
+}
+
 #button-percentage-container {
     width: 40%;
-    background-color: #FFED29;
     display: flex;
     flex-direction: column;
     row-gap: 10px;

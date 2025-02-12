@@ -1,0 +1,155 @@
+[
+    {
+        "question": "Which ancient civilization is credited with inventing the first written language?",
+        "answers": [
+            {"text": "Egyptians", "correct": false},
+            {"text": "Greeks", "correct": false},
+            {"text": "Romans", "correct": false},
+            {"text": "Sumerians", "correct": true}
+        ]
+    },
+    {
+        "question": "What is the only planet in the Solar System that rotates clockwise?",
+        "answers": [
+            {"text": "Mars", "correct": false},
+            {"text": "Venus", "correct": true},
+            {"text": "Neptune", "correct": false},
+            {"text": "Uranus", "correct": false}
+        ]
+    },
+    {
+        "question": "In Norse mythology, what is the name of the serpent that encircles the world?",
+        "answers": [
+            {"text": "Fenrir", "correct": false},
+            {"text": "Sleipnir", "correct": false},
+            {"text": "Jörmungandr", "correct": true},
+            {"text": "Ymir", "correct": false}
+        ]
+    },
+    {
+        "question": "What year did the Byzantine Empire finally fall to the Ottoman Empire?",
+        "answers": [
+            {"text": "1392", "correct": false},
+            {"text": "1415", "correct": false},
+            {"text": "1492", "correct": false},
+            {"text": "1453", "correct": true}
+        ]
+    },
+    {
+        "question": "Which subatomic particle was discovered first?",
+        "answers": [
+            {"text": "Proton", "correct": false},
+            {"text": "Electron", "correct": true},
+            {"text": "Neutron", "correct": false},
+            {"text": "Quark", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the deepest known point in the ocean?",
+        "answers": [
+            {"text": "Java Trench", "correct": false},
+            {"text": "Mariana Trench", "correct": true},
+            {"text": "Puerto Rico Trench", "correct": false},
+            {"text": "Tonga Trench", "correct": false}
+        ]
+    },
+    {
+        "question": "Which philosopher is known for the quote 'I think, therefore I am'?",
+        "answers": [
+            {"text": "Plato", "correct": false},
+            {"text": "Aristotle", "correct": false},
+            {"text": "René Descartes", "correct": true},
+            {"text": "Socrates", "correct": false}
+        ]
+    },
+    {
+        "question": "Which country has the most natural lakes in the world?",
+        "answers": [
+            {"text": "Russia", "correct": false},
+            {"text": "Canada", "correct": true},
+            {"text": "United States", "correct": false},
+            {"text": "Brazil", "correct": false}
+        ]
+    },
+    {
+        "question": "Which composer created the famous piece 'Clair de Lune'?",
+        "answers": [
+            {"text": "Ludwig van Beethoven", "correct": false},
+            {"text": "Claude Debussy", "correct": true},
+            {"text": "Franz Schubert", "correct": false},
+            {"text": "Johann Sebastian Bach", "correct": false}
+        ]
+    },
+    {
+        "question": "Which physicist developed the theory of electromagnetism?",
+        "answers": [
+            {"text": "Isaac Newton", "correct": false},
+            {"text": "Nikola Tesla", "correct": false},
+            {"text": "James Clerk Maxwell", "correct": true},
+            {"text": "Albert Einstein", "correct": false}
+        ]
+    },
+    {
+        "question": "In what year was the first human-made satellite, Sputnik 1, launched?",
+        "answers": [
+            {"text": "1955", "correct": false},
+            {"text": "1957", "correct": true},
+            {"text": "1961", "correct": false},
+            {"text": "1949", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the term for an organism that thrives in extreme environments?",
+        "answers": [
+            {"text": "Endotherm", "correct": false},
+            {"text": "Extremophile", "correct": true},
+            {"text": "Autotroph", "correct": false},
+            {"text": "Heterotroph", "correct": false}
+        ]
+    },
+    {
+        "question": "Which Roman emperor supposedly played music while Rome burned?",
+        "answers": [
+            {"text": "Augustus", "correct": false},
+            {"text": "Nero", "correct": true},
+            {"text": "Caligula", "correct": false},
+            {"text": "Tiberius", "correct": false}
+        ]
+    },
+    {
+        "question": "Which element has the highest melting point?",
+        "answers": [
+            {"text": "Titanium", "correct": false},
+            {"text": "Tungsten", "correct": true},
+            {"text": "Osmium", "correct": false},
+            {"text": "Iridium", "correct": false}
+        ]
+    },
+    {
+        "question": "Which African country was never colonized by a European power?",
+        "answers": [
+            {"text": "Egypt", "correct": false},
+            {"text": "Ethiopia", "correct": true},
+            {"text": "Kenya", "correct": false},
+            {"text": "Ghana", "correct": false}
+        ]
+    },
+    {
+        "question": "Which physicist proposed the uncertainty principle?",
+        "answers": [
+            {"text": "Werner Heisenberg", "correct": true},
+            {"text": "Max Planck", "correct": false},
+            {"text": "Niels Bohr", "correct": false},
+            {"text": "Richard Feynman", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the rarest blood type in the world?",
+        "answers": [
+            {"text": "AB+", "correct": false},
+            {"text": "O-", "correct": false},
+            {"text": "AB-", "correct": false},
+            {"text": "Rh-null", "correct": true}
+        ]
+    }
+]

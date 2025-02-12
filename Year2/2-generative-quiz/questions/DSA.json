@@ -1,0 +1,454 @@
+[
+    {
+        "question": "Which data structure uses LIFO (Last In, First Out) order?",
+        "answers": [
+            {"text": "Queue", "correct": false},
+            {"text": "Stack", "correct": true},
+            {"text": "Heap", "correct": false},
+            {"text": "Linked List", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the worst-case time complexity of QuickSort?",
+        "answers": [
+            {"text": "O(n log n)", "correct": false},
+            {"text": "O(n²)", "correct": true},
+            {"text": "O(n)", "correct": false},
+            {"text": "O(log n)", "correct": false}
+        ]
+    },
+    {
+        "question": "Which data structure is used for implementing recursion?",
+        "answers": [
+            {"text": "Queue", "correct": false},
+            {"text": "Stack", "correct": true},
+            {"text": "Heap", "correct": false},
+            {"text": "Graph", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the time complexity of searching in a balanced binary search tree (BST)?",
+        "answers": [
+            {"text": "O(n)", "correct": false},
+            {"text": "O(log n)", "correct": true},
+            {"text": "O(n²)", "correct": false},
+            {"text": "O(1)", "correct": false}
+        ]
+    },
+    {
+        "question": "Which sorting algorithm is considered the most efficient for large datasets in general cases?",
+        "answers": [
+            {"text": "Bubble Sort", "correct": false},
+            {"text": "Selection Sort", "correct": false},
+            {"text": "Merge Sort", "correct": true},
+            {"text": "Insertion Sort", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the primary advantage of a linked list over an array?",
+        "answers": [
+            {"text": "Faster element access", "correct": false},
+            {"text": "Dynamic memory allocation", "correct": true},
+            {"text": "Uses less memory", "correct": false},
+            {"text": "Better cache locality", "correct": false}
+        ]
+    },
+    {
+        "question": "Which data structure is best suited for implementing an undo feature in a text editor?",
+        "answers": [
+            {"text": "Queue", "correct": false},
+            {"text": "Stack", "correct": true},
+            {"text": "Heap", "correct": false},
+            {"text": "Array", "correct": false}
+        ]
+    },
+    {
+        "question": "In which case does the time complexity of Merge Sort become O(n²)?",
+        "answers": [
+            {"text": "When all elements are equal", "correct": false},
+            {"text": "When sorting already sorted data", "correct": false},
+            {"text": "It never becomes O(n²)", "correct": true},
+            {"text": "When using an iterative approach", "correct": false}
+        ]
+    },
+    {
+        "question": "Which data structure is used in Dijkstra’s shortest path algorithm?",
+        "answers": [
+            {"text": "Stack", "correct": false},
+            {"text": "Heap/Priority Queue", "correct": true},
+            {"text": "Queue", "correct": false},
+            {"text": "Linked List", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the worst-case time complexity of inserting an element into a hash table?",
+        "answers": [
+            {"text": "O(1)", "correct": false},
+            {"text": "O(log n)", "correct": false},
+            {"text": "O(n)", "correct": true},
+            {"text": "O(n log n)", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of these algorithms is NOT used for searching?",
+        "answers": [
+            {"text": "Binary Search", "correct": false},
+            {"text": "Depth-First Search", "correct": false},
+            {"text": "Breadth-First Search", "correct": false},
+            {"text": "Heap Sort", "correct": true}
+        ]
+    },
+    {
+        "question": "A circular queue avoids the problem of wasted space in which data structure?",
+        "answers": [
+            {"text": "Array-based queue", "correct": true},
+            {"text": "Linked List", "correct": false},
+            {"text": "Stack", "correct": false},
+            {"text": "Binary Tree", "correct": false}
+        ]
+    },
+    {
+        "question": "Which traversal technique is used in Breadth-First Search (BFS)?",
+        "answers": [
+            {"text": "Stack-based traversal", "correct": false},
+            {"text": "Queue-based traversal", "correct": true},
+            {"text": "Recursion-based traversal", "correct": false},
+            {"text": "Heap-based traversal", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of these data structures allows O(1) time complexity for inserting and deleting elements at both ends?",
+        "answers": [
+            {"text": "Queue", "correct": false},
+            {"text": "Deque (Double-ended Queue)", "correct": true},
+            {"text": "Stack", "correct": false},
+            {"text": "Array", "correct": false}
+        ]
+    },
+    {
+        "question": "Which data structure is commonly used in function call management in programming languages?",
+        "answers": [
+            {"text": "Heap", "correct": false},
+            {"text": "Queue", "correct": false},
+            {"text": "Stack", "correct": true},
+            {"text": "Tree", "correct": false}
+        ]
+    },
+    {
+        "question": "Which searching algorithm works efficiently on sorted arrays with a time complexity of O(log n)?",
+        "answers": [
+            {"text": "Linear Search", "correct": false},
+            {"text": "Binary Search", "correct": true},
+            {"text": "Jump Search", "correct": false},
+            {"text": "Depth-First Search", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the primary advantage of a B-tree over a binary search tree?",
+        "answers": [
+            {"text": "Faster in-memory operations", "correct": false},
+            {"text": "Optimized for disk storage", "correct": true},
+            {"text": "Requires less memory", "correct": false},
+            {"text": "Easier to implement", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the average-case time complexity of Heap Sort?",
+        "answers": [
+            {"text": "O(n)", "correct": false},
+            {"text": "O(n log n)", "correct": true},
+            {"text": "O(log n)", "correct": false},
+            {"text": "O(n²)", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the best time complexity of Bubble Sort?",
+        "answers": [
+            {"text": "O(n log n)", "correct": false},
+            {"text": "O(n)", "correct": true},
+            {"text": "O(n²)", "correct": false},
+            {"text": "O(log n)", "correct": false}
+        ]
+    },
+    {
+        "question": "In a Max Heap, what is the condition that the root node satisfies?",
+        "answers": [
+            {"text": "Root is always the smallest element", "correct": false},
+            {"text": "Root is always the largest element", "correct": true},
+            {"text": "Root is always a leaf node", "correct": false},
+            {"text": "Root has exactly two children", "correct": false}
+        ]
+    },
+    {
+        "question": "Which data structure is best for implementing a priority queue?",
+        "answers": [
+            {"text": "Stack", "correct": false},
+            {"text": "Queue", "correct": false},
+            {"text": "Heap", "correct": true},
+            {"text": "Linked List", "correct": false}
+        ]
+    },
+    {
+        "question": "Which tree traversal method visits nodes in the order: Left, Root, Right?",
+        "answers": [
+            {"text": "Preorder", "correct": false},
+            {"text": "Inorder", "correct": true},
+            {"text": "Postorder", "correct": false},
+            {"text": "Level Order", "correct": false}
+        ]
+    },
+    {
+        "question": "Which sorting algorithm is **stable** and works well with linked lists?",
+        "answers": [
+            {"text": "QuickSort", "correct": false},
+            {"text": "MergeSort", "correct": true},
+            {"text": "HeapSort", "correct": false},
+            {"text": "Selection Sort", "correct": false}
+        ]
+    },
+    {
+        "question": "Which algorithm is used to detect cycles in a **directed graph**?",
+        "answers": [
+            {"text": "Dijkstra’s Algorithm", "correct": false},
+            {"text": "Floyd-Warshall Algorithm", "correct": false},
+            {"text": "Kruskal’s Algorithm", "correct": false},
+            {"text": "Depth-First Search (DFS)", "correct": true}
+        ]
+    },
+    {
+        "question": "Which data structure is **NOT** suitable for binary search?",
+        "answers": [
+            {"text": "Sorted Array", "correct": false},
+            {"text": "Linked List", "correct": true},
+            {"text": "Balanced BST", "correct": false},
+            {"text": "B-Tree", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the main advantage of **adjacency list** representation of a graph over an adjacency matrix?",
+        "answers": [
+            {"text": "Faster lookup of edge existence", "correct": false},
+            {"text": "Less memory usage for sparse graphs", "correct": true},
+            {"text": "Easier to implement", "correct": false},
+            {"text": "Suitable for dense graphs", "correct": false}
+        ]
+    },
+    {
+        "question": "Which algorithm is **NOT** used for Minimum Spanning Tree (MST)?",
+        "answers": [
+            {"text": "Prim’s Algorithm", "correct": false},
+            {"text": "Kruskal’s Algorithm", "correct": false},
+            {"text": "Dijkstra’s Algorithm", "correct": true},
+            {"text": "Borůvka’s Algorithm", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the space complexity of Breadth-First Search (BFS) in terms of number of nodes (n)?",
+        "answers": [
+            {"text": "O(n log n)", "correct": false},
+            {"text": "O(n)", "correct": true},
+            {"text": "O(log n)", "correct": false},
+            {"text": "O(1)", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of the following sorting algorithms does **NOT** use comparison-based sorting?",
+        "answers": [
+            {"text": "Merge Sort", "correct": false},
+            {"text": "Quick Sort", "correct": false},
+            {"text": "Radix Sort", "correct": true},
+            {"text": "Heap Sort", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the worst-case time complexity of **Bucket Sort**?",
+        "answers": [
+            {"text": "O(n²)", "correct": true},
+            {"text": "O(n log n)", "correct": false},
+            {"text": "O(n)", "correct": false},
+            {"text": "O(log n)", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of the following algorithms can be used to **find articulation points in a graph**?",
+        "answers": [
+            {"text": "Dijkstra’s Algorithm", "correct": false},
+            {"text": "Tarjan’s Algorithm", "correct": true},
+            {"text": "Floyd-Warshall Algorithm", "correct": false},
+            {"text": "Bellman-Ford Algorithm", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of the following is **NOT** an application of stacks?",
+        "answers": [
+            {"text": "Function calls", "correct": false},
+            {"text": "Undo operations", "correct": false},
+            {"text": "Graph Traversal (BFS)", "correct": true},
+            {"text": "Expression Evaluation", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the worst-case time complexity of inserting into a Red-Black Tree?",
+        "answers": [
+            {"text": "O(n)", "correct": false},
+            {"text": "O(log n)", "correct": true},
+            {"text": "O(1)", "correct": false},
+            {"text": "O(n log n)", "correct": false}
+        ]
+    },
+    {
+        "question": "Which data structure **optimally** supports insertions at both ends and deletions at both ends?",
+        "answers": [
+            {"text": "Queue", "correct": false},
+            {"text": "Deque", "correct": true},
+            {"text": "Stack", "correct": false},
+            {"text": "Array", "correct": false}
+        ]
+    },
+    {
+        "question": "Which algorithm is best suited for **finding the shortest path in a weighted graph with negative weights**?",
+        "answers": [
+            {"text": "Dijkstra’s Algorithm", "correct": false},
+            {"text": "Bellman-Ford Algorithm", "correct": true},
+            {"text": "Kruskal’s Algorithm", "correct": false},
+            {"text": "Floyd-Warshall Algorithm", "correct": false}
+        ]
+    },
+    {
+        "question": "Which searching algorithm works by jumping ahead by a fixed number of elements before performing a linear search?",
+        "answers": [
+            {"text": "Binary Search", "correct": false},
+            {"text": "Jump Search", "correct": true},
+            {"text": "Interpolation Search", "correct": false},
+            {"text": "Ternary Search", "correct": false}
+        ]
+    },
+    {
+        "question": "Which algorithm is used to find the **strongly connected components** of a directed graph?",
+        "answers": [
+            {"text": "Kruskal’s Algorithm", "correct": false},
+            {"text": "Kosaraju’s Algorithm", "correct": true},
+            {"text": "Floyd-Warshall Algorithm", "correct": false},
+            {"text": "Bellman-Ford Algorithm", "correct": false}
+        ]
+    },
+    {
+        "question": "In **AVL trees**, what is the maximum allowed difference in height between left and right subtrees?",
+        "answers": [
+            {"text": "1", "correct": true},
+            {"text": "2", "correct": false},
+            {"text": "0", "correct": false},
+            {"text": "3", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the best case time complexity of the **Insertion Sort** algorithm?",
+        "answers": [
+            {"text": "O(n)", "correct": true},
+            {"text": "O(n²)", "correct": false},
+            {"text": "O(log n)", "correct": false},
+            {"text": "O(n log n)", "correct": false}
+        ]
+    },
+    {
+        "question": "Which hashing technique is used to resolve collisions by **storing all elements in the same bucket**?",
+        "answers": [
+            {"text": "Linear Probing", "correct": false},
+            {"text": "Chaining", "correct": true},
+            {"text": "Quadratic Probing", "correct": false},
+            {"text": "Double Hashing", "correct": false}
+        ]
+    },
+    {
+        "question": "Which data structure efficiently supports **range queries** such as sum or minimum in an array?",
+        "answers": [
+            {"text": "Segment Tree", "correct": true},
+            {"text": "Binary Search Tree", "correct": false},
+            {"text": "Hash Table", "correct": false},
+            {"text": "Stack", "correct": false}
+        ]
+    },
+    {
+        "question": "Which traversal technique is used in **Heap Sort** to maintain the heap property?",
+        "answers": [
+            {"text": "Preorder", "correct": false},
+            {"text": "Postorder", "correct": false},
+            {"text": "Inorder", "correct": false},
+            {"text": "Level Order", "correct": true}
+        ]
+    },
+    {
+        "question": "Which of the following data structures is **best suited** for implementing an LRU (Least Recently Used) cache?",
+        "answers": [
+            {"text": "Queue", "correct": false},
+            {"text": "Doubly Linked List with Hash Map", "correct": true},
+            {"text": "Stack", "correct": false},
+            {"text": "Heap", "correct": false}
+        ]
+    },
+    {
+        "question": "Which algorithm is used in **dynamic programming** to solve the Longest Common Subsequence (LCS) problem?",
+        "answers": [
+            {"text": "Kadane’s Algorithm", "correct": false},
+            {"text": "Bellman-Ford Algorithm", "correct": false},
+            {"text": "Floyd-Warshall Algorithm", "correct": false},
+            {"text": "Bottom-Up DP with Table", "correct": true}
+        ]
+    },
+    {
+        "question": "What is the primary advantage of **Fibonacci Heap** over Binary Heap?",
+        "answers": [
+            {"text": "Faster Insertions and Decrease-Key operations", "correct": true},
+            {"text": "Better Space Complexity", "correct": false},
+            {"text": "Faster Deletion of Minimum Element", "correct": false},
+            {"text": "More efficient for Balanced Trees", "correct": false}
+        ]
+    },
+    {
+        "question": "Which algorithm is used in **string matching** with a rolling hash technique?",
+        "answers": [
+            {"text": "Rabin-Karp", "correct": true},
+            {"text": "Knuth-Morris-Pratt (KMP)", "correct": false},
+            {"text": "Boyer-Moore", "correct": false},
+            {"text": "Z Algorithm", "correct": false}
+        ]
+    },
+    {
+        "question": "Which data structure is commonly used to detect **bridges and articulation points** in a graph?",
+        "answers": [
+            {"text": "Disjoint Set Union (DSU)", "correct": false},
+            {"text": "Segment Tree", "correct": false},
+            {"text": "Depth-First Search (DFS) Tree", "correct": true},
+            {"text": "B-Tree", "correct": false}
+        ]
+    },
+    {
+        "question": "Which algorithm efficiently finds the **k-th smallest element** in an unordered list?",
+        "answers": [
+            {"text": "Heap Sort", "correct": false},
+            {"text": "QuickSelect", "correct": true},
+            {"text": "Merge Sort", "correct": false},
+            {"text": "Radix Sort", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of the following is an **amortized time complexity** for dynamic array resizing?",
+        "answers": [
+            {"text": "O(1)", "correct": true},
+            {"text": "O(n)", "correct": false},
+            {"text": "O(log n)", "correct": false},
+            {"text": "O(n log n)", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of the following algorithms is **NOT** a greedy algorithm?",
+        "answers": [
+            {"text": "Prim’s Algorithm", "correct": false},
+            {"text": "Kruskal’s Algorithm", "correct": false},
+            {"text": "Huffman Coding", "correct": false},
+            {"text": "Floyd-Warshall Algorithm", "correct": true}
+        ]
+    }
+]
+
+

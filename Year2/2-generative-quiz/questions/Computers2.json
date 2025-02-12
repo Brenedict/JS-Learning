@@ -1,0 +1,182 @@
+[
+    {
+        "question": "Which type of network topology requires a central connecting device like a switch or hub?",
+        "answers": [
+            {"text": "Mesh", "correct": false},
+            {"text": "Star", "correct": true},
+            {"text": "Bus", "correct": false},
+            {"text": "Ring", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the purpose of the ARP (Address Resolution Protocol) in networking?",
+        "answers": [
+            {"text": "Translate MAC addresses to IP addresses", "correct": false},
+            {"text": "Resolve IP addresses to MAC addresses", "correct": true},
+            {"text": "Authenticate network users", "correct": false},
+            {"text": "Encrypt data before transmission", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of the following is NOT an example of a compiled programming language?",
+        "answers": [
+            {"text": "Java", "correct": false},
+            {"text": "Python", "correct": true},
+            {"text": "C++", "correct": false},
+            {"text": "Go", "correct": false}
+        ]
+    },
+    {
+        "question": "In a relational database, what is the purpose of an index?",
+        "answers": [
+            {"text": "Speed up queries by reducing the number of rows scanned", "correct": true},
+            {"text": "Enforce referential integrity", "correct": false},
+            {"text": "Automatically back up data", "correct": false},
+            {"text": "Ensure uniqueness of all columns in a table", "correct": false}
+        ]
+    },
+    {
+        "question": "What is a hash function primarily used for in cryptography?",
+        "answers": [
+            {"text": "Encrypting entire files", "correct": false},
+            {"text": "Generating fixed-size outputs from arbitrary data", "correct": true},
+            {"text": "Managing IP addresses", "correct": false},
+            {"text": "Generating one-time passwords", "correct": false}
+        ]
+    },
+    {
+        "question": "Which CPU scheduling algorithm always selects the process with the shortest next burst time?",
+        "answers": [
+            {"text": "Shortest Job Next (SJN)", "correct": true},
+            {"text": "First Come, First Served (FCFS)", "correct": false},
+            {"text": "Round Robin", "correct": false},
+            {"text": "Multilevel Queue", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the default port number for HTTPS?",
+        "answers": [
+            {"text": "80", "correct": false},
+            {"text": "443", "correct": true},
+            {"text": "22", "correct": false},
+            {"text": "25", "correct": false}
+        ]
+    },
+    {
+        "question": "Which RAID level provides redundancy by mirroring data across drives?",
+        "answers": [
+            {"text": "RAID 5", "correct": false},
+            {"text": "RAID 1", "correct": true},
+            {"text": "RAID 0", "correct": false},
+            {"text": "RAID 10", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the primary purpose of a sandbox in cybersecurity?",
+        "answers": [
+            {"text": "Securely store encryption keys", "correct": false},
+            {"text": "Isolate untrusted programs to prevent them from affecting the main system", "correct": true},
+            {"text": "Scan for vulnerabilities in a network", "correct": false},
+            {"text": "Encrypt sensitive files", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the term for a cybersecurity attack that overwhelms a network or service with excessive traffic?",
+        "answers": [
+            {"text": "Man-in-the-Middle Attack", "correct": false},
+            {"text": "Denial-of-Service (DoS) Attack", "correct": true},
+            {"text": "Phishing Attack", "correct": false},
+            {"text": "SQL Injection", "correct": false}
+        ]
+    },
+    {
+        "question": "Which memory type is non-volatile and used for long-term storage?",
+        "answers": [
+            {"text": "RAM", "correct": false},
+            {"text": "ROM", "correct": true},
+            {"text": "Cache Memory", "correct": false},
+            {"text": "Registers", "correct": false}
+        ]
+    },
+    {
+        "question": "Which protocol is used to automatically assign IP addresses to devices in a network?",
+        "answers": [
+            {"text": "DNS", "correct": false},
+            {"text": "DHCP", "correct": true},
+            {"text": "ARP", "correct": false},
+            {"text": "ICMP", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of the following data structures is best suited for implementing a LIFO system?",
+        "answers": [
+            {"text": "Queue", "correct": false},
+            {"text": "Stack", "correct": true},
+            {"text": "Linked List", "correct": false},
+            {"text": "Heap", "correct": false}
+        ]
+    },
+    {
+        "question": "Which layer of the OSI model is responsible for logical addressing?",
+        "answers": [
+            {"text": "Application", "correct": false},
+            {"text": "Network", "correct": true},
+            {"text": "Data Link", "correct": false},
+            {"text": "Transport", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the primary advantage of a solid-state drive (SSD) over a hard disk drive (HDD)?",
+        "answers": [
+            {"text": "Higher storage capacity", "correct": false},
+            {"text": "Faster read and write speeds", "correct": true},
+            {"text": "Lower price per gigabyte", "correct": false},
+            {"text": "More moving parts", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of the following is an example of a NoSQL database?",
+        "answers": [
+            {"text": "PostgreSQL", "correct": false},
+            {"text": "MongoDB", "correct": true},
+            {"text": "MySQL", "correct": false},
+            {"text": "OracleDB", "correct": false}
+        ]
+    },
+    {
+        "question": "Which programming paradigm focuses on using objects that contain both data and methods?",
+        "answers": [
+            {"text": "Functional Programming", "correct": false},
+            {"text": "Object-Oriented Programming", "correct": true},
+            {"text": "Procedural Programming", "correct": false},
+            {"text": "Declarative Programming", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the primary function of a hypervisor in virtualization?",
+        "answers": [
+            {"text": "Optimize CPU performance", "correct": false},
+            {"text": "Manage virtual machines on a host system", "correct": true},
+            {"text": "Increase the speed of SSDs", "correct": false},
+            {"text": "Encrypt stored data", "correct": false}
+        ]
+    },
+    {
+        "question": "Which programming concept refers to the ability of different classes to provide their own implementation of the same method?",
+        "answers": [
+            {"text": "Encapsulation", "correct": false},
+            {"text": "Polymorphism", "correct": true},
+            {"text": "Inheritance", "correct": false},
+            {"text": "Abstraction", "correct": false}
+        ]
+    },
+    {
+        "question": "Which encryption algorithm is considered quantum-resistant?",
+        "answers": [
+            {"text": "RSA", "correct": false},
+            {"text": "AES-256", "correct": false},
+            {"text": "SHA-256", "correct": false},
+            {"text": "Lattice-based Cryptography", "correct": true}
+        ]
+    }
+]

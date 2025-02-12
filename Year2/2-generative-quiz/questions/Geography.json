@@ -1,0 +1,191 @@
+[
+    {
+        "question": "What is the largest desert in the world?",
+        "answers": [
+            {"text": "Sahara Desert", "correct": false},
+            {"text": "Gobi Desert", "correct": false},
+            {"text": "Antarctic Desert", "correct": true},
+            {"text": "Kalahari Desert", "correct": false}
+        ]
+    },
+    {
+        "question": "Which country has the longest coastline in the world?",
+        "answers": [
+            {"text": "Australia", "correct": false},
+            {"text": "Russia", "correct": false},
+            {"text": "United States", "correct": false},
+            {"text": "Canada", "correct": true}
+        ]
+    },
+    {
+        "question": "Which continent has the most countries?",
+        "answers": [
+            {"text": "Asia", "correct": false},
+            {"text": "Africa", "correct": true},
+            {"text": "Europe", "correct": false},
+            {"text": "South America", "correct": false}
+        ]
+    },
+    {
+        "question": "Which river flows through the most countries?",
+        "answers": [
+            {"text": "Amazon River", "correct": false},
+            {"text": "Nile River", "correct": false},
+            {"text": "Danube River", "correct": true},
+            {"text": "Yangtze River", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the capital of Switzerland?",
+        "answers": [
+            {"text": "Zurich", "correct": false},
+            {"text": "Geneva", "correct": false},
+            {"text": "Bern", "correct": true},
+            {"text": "Basel", "correct": false}
+        ]
+    },
+    {
+        "question": "Which country is home to the highest waterfall in the world?",
+        "answers": [
+            {"text": "Brazil", "correct": false},
+            {"text": "Venezuela", "correct": true},
+            {"text": "Canada", "correct": false},
+            {"text": "Norway", "correct": false}
+        ]
+    },
+    {
+        "question": "Which is the only country that has a **non-quadrilateral flag**?",
+        "answers": [
+            {"text": "Switzerland", "correct": false},
+            {"text": "Bhutan", "correct": false},
+            {"text": "Nepal", "correct": true},
+            {"text": "Vatican City", "correct": false}
+        ]
+    },
+    {
+        "question": "Which U.S. state has the most active volcanoes?",
+        "answers": [
+            {"text": "California", "correct": false},
+            {"text": "Hawaii", "correct": false},
+            {"text": "Alaska", "correct": true},
+            {"text": "Oregon", "correct": false}
+        ]
+    },
+    {
+        "question": "Which is the smallest country in the world by land area?",
+        "answers": [
+            {"text": "San Marino", "correct": false},
+            {"text": "Liechtenstein", "correct": false},
+            {"text": "Monaco", "correct": false},
+            {"text": "Vatican City", "correct": true}
+        ]
+    },
+    {
+        "question": "Which African country has the most pyramids?",
+        "answers": [
+            {"text": "Egypt", "correct": false},
+            {"text": "Sudan", "correct": true},
+            {"text": "Ethiopia", "correct": false},
+            {"text": "Algeria", "correct": false}
+        ]
+    },
+    {
+        "question": "Which is the **only** country to border both **the Caspian Sea and the Persian Gulf**?",
+        "answers": [
+            {"text": "Iraq", "correct": false},
+            {"text": "Turkey", "correct": false},
+            {"text": "Saudi Arabia", "correct": false},
+            {"text": "Iran", "correct": true}
+        ]
+    },
+    {
+        "question": "What is the **deepest** lake in the world?",
+        "answers": [
+            {"text": "Lake Superior", "correct": false},
+            {"text": "Caspian Sea", "correct": false},
+            {"text": "Lake Baikal", "correct": true},
+            {"text": "Lake Victoria", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the world's most **southern capital city**?",
+        "answers": [
+            {"text": "Santiago", "correct": false},
+            {"text": "Canberra", "correct": false},
+            {"text": "Wellington", "correct": true},
+            {"text": "Buenos Aires", "correct": false}
+        ]
+    },
+    {
+        "question": "Which country **entirely** surrounds Lesotho?",
+        "answers": [
+            {"text": "Botswana", "correct": false},
+            {"text": "South Africa", "correct": true},
+            {"text": "Namibia", "correct": false},
+            {"text": "Zimbabwe", "correct": false}
+        ]
+    },
+    {
+        "question": "Which country owns **Greenland**?",
+        "answers": [
+            {"text": "Canada", "correct": false},
+            {"text": "Iceland", "correct": false},
+            {"text": "Norway", "correct": false},
+            {"text": "Denmark", "correct": true}
+        ]
+    },
+    {
+        "question": "Which African country is the **largest by land area**?",
+        "answers": [
+            {"text": "Egypt", "correct": false},
+            {"text": "Sudan", "correct": false},
+            {"text": "Algeria", "correct": true},
+            {"text": "South Africa", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the only country in the world that is **named after a woman**?",
+        "answers": [
+            {"text": "Belize", "correct": false},
+            {"text": "Argentina", "correct": false},
+            {"text": "Saint Lucia", "correct": true},
+            {"text": "Colombia", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the **largest island** in the world that is NOT a continent?",
+        "answers": [
+            {"text": "Madagascar", "correct": false},
+            {"text": "Borneo", "correct": false},
+            {"text": "Greenland", "correct": true},
+            {"text": "New Guinea", "correct": false}
+        ]
+    },
+    {
+        "question": "Which mountain range separates **Europe from Asia**?",
+        "answers": [
+            {"text": "Andes", "correct": false},
+            {"text": "Himalayas", "correct": false},
+            {"text": "Rocky Mountains", "correct": false},
+            {"text": "Ural Mountains", "correct": true}
+        ]
+    },
+    {
+        "question": "Which U.S. state **only borders one other U.S. state**?",
+        "answers": [
+            {"text": "Rhode Island", "correct": false},
+            {"text": "Alaska", "correct": false},
+            {"text": "Maine", "correct": true},
+            {"text": "Hawaii", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the **most populous country in Africa**?",
+        "answers": [
+            {"text": "Egypt", "correct": false},
+            {"text": "Ethiopia", "correct": false},
+            {"text": "South Africa", "correct": false},
+            {"text": "Nigeria", "correct": true}
+        ]
+    }
+]

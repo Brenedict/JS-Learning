@@ -13,12 +13,28 @@
                 <span id="simple-text">SIMPLE</span>
                 <span id="quiz-app-text">QUIZ APP</span>
             </div>
-            <button type="menu"></button>
-            <button class="btn btn-start" onclick="startQuiz()">START</button>
+            <div class="start-menu-clickables">
+                <select name="questionnaires" id="questionnaires-select">
+                    <option value="Computers1" selected>Computers Literacy 1</option>
+                    <option value="Computers2">Computers Literacy 2</option>
+                    <option value="General1">General Knowledge 1</option>
+                    <option value="General2">General Knowledge 2</option>
+                    <option value="Geography">Geography</option>
+                    <option value="PhilippineHistory">Philippine History</option>
+                    <option value="Conspiracy">Conspiracy Theories</option>
+                    <option value="BrainTeasers">Brain Teasers</option>
+                    <option value="Controversies">Controversies</option>
+                    <option value="DSA">Data Structures and Algorithms</option>
+                </select>
+                <button class="btn btn-start" onclick="startQuiz()">START</button>
+            </div>
         </section>
         
         <section class="questions-container hide" id="questions-container">
-            <p id="question-number">Question </p>
+            <div id="questionanire-details">
+                <p id="question-number">Question </p>
+                <p id="questionnaire-name">Test</p>
+            </div>
             <p id="question"></p>
             <div class="buttons-grid" id="buttons-grid">
                 <!-- Button children to be appended -->

@@ -1,0 +1,183 @@
+[
+    {
+        "question": "Who was the first Filipino hero to resist Spanish colonization?",
+        "answers": [
+            {"text": "Lapu-Lapu", "correct": true},
+            {"text": "Andres Bonifacio", "correct": false},
+            {"text": "Jose Rizal", "correct": false},
+            {"text": "Diego Silang", "correct": false}
+        ]
+    },
+    {
+        "question": "When did the Philippines gain independence from Spain?",
+        "answers": [
+            {"text": "June 12, 1898", "correct": true},
+            {"text": "July 4, 1946", "correct": false},
+            {"text": "August 23, 1896", "correct": false},
+            {"text": "November 30, 1863", "correct": false}
+        ]
+    },
+    {
+        "question": "What was the first capital of the Philippines under Spanish rule?",
+        "answers": [
+            {"text": "Cebu", "correct": true},
+            {"text": "Manila", "correct": false},
+            {"text": "Vigan", "correct": false},
+            {"text": "Davao", "correct": false}
+        ]
+    },
+    {
+        "question": "Who was known as the 'Brains of the Katipunan'?",
+        "answers": [
+            {"text": "Andres Bonifacio", "correct": false},
+            {"text": "Emilio Aguinaldo", "correct": false},
+            {"text": "Apolinario Mabini", "correct": true},
+            {"text": "Melchora Aquino", "correct": false}
+        ]
+    },
+    {
+        "question": "Which treaty ended the Spanish-American War and led to the U.S. acquiring the Philippines?",
+        "answers": [
+            {"text": "Treaty of Tordesillas", "correct": false},
+            {"text": "Treaty of Manila", "correct": false},
+            {"text": "Treaty of Paris (1898)", "correct": true},
+            {"text": "Pact of Biak-na-Bato", "correct": false}
+        ]
+    },
+    {
+        "question": "Who was the first President of the Philippines?",
+        "answers": [
+            {"text": "Emilio Aguinaldo", "correct": true},
+            {"text": "Manuel L. Quezon", "correct": false},
+            {"text": "Jose P. Laurel", "correct": false},
+            {"text": "Sergio Osmeña", "correct": false}
+        ]
+    },
+    {
+        "question": "What was the name of the first book published in the Philippines?",
+        "answers": [
+            {"text": "Noli Me Tangere", "correct": false},
+            {"text": "Flora de Filipinas", "correct": false},
+            {"text": "Doctrina Christiana", "correct": true},
+            {"text": "El Filibusterismo", "correct": false}
+        ]
+    },
+    {
+        "question": "Which revolutionary group was founded by Andres Bonifacio?",
+        "answers": [
+            {"text": "La Liga Filipina", "correct": false},
+            {"text": "Katipunan (KKK)", "correct": true},
+            {"text": "Propaganda Movement", "correct": false},
+            {"text": "Federal Party", "correct": false}
+        ]
+    },
+    {
+        "question": "Who was the last Spanish Governor-General of the Philippines?",
+        "answers": [
+            {"text": "Rafael de Izquierdo", "correct": false},
+            {"text": "Diego Silang", "correct": false},
+            {"text": "Basilio Agustin", "correct": false},
+            {"text": "Diego de los Ríos", "correct": true}
+        ]
+    },
+    {
+        "question": "What was the ancient script used in the Philippines before Spanish colonization?",
+        "answers": [
+            {"text": "Sanskrit", "correct": false},
+            {"text": "Baybayin", "correct": true},
+            {"text": "Alibata", "correct": false},
+            {"text": "Kawi", "correct": false}
+        ]
+    },
+    {
+        "question": "What was the capital of the Philippines during the Japanese occupation?",
+        "answers": [
+            {"text": "Manila", "correct": false},
+            {"text": "Baguio", "correct": false},
+            {"text": "Davao", "correct": false},
+            {"text": "Baguio", "correct": false},
+            {"text": "Puppet Government in Manila", "correct": true}
+        ]
+    },
+    {
+        "question": "Who was known as the 'Mother of the Philippine Revolution'?",
+        "answers": [
+            {"text": "Melchora Aquino", "correct": true},
+            {"text": "Gabriela Silang", "correct": false},
+            {"text": "Gregoria de Jesus", "correct": false},
+            {"text": "Josefa Llanes Escoda", "correct": false}
+        ]
+    },
+    {
+        "question": "Which battle marked the beginning of the Philippine-American War?",
+        "answers": [
+            {"text": "Battle of Manila Bay", "correct": false},
+            {"text": "Battle of Balangiga", "correct": false},
+            {"text": "Battle of Manila (1899)", "correct": true},
+            {"text": "Siege of Baler", "correct": false}
+        ]
+    },
+    {
+        "question": "Who was the Filipino general famous for using guerrilla warfare against the Americans?",
+        "answers": [
+            {"text": "Antonio Luna", "correct": false},
+            {"text": "Emilio Aguinaldo", "correct": false},
+            {"text": "Miguel Malvar", "correct": true},
+            {"text": "Gregorio del Pilar", "correct": false}
+        ]
+    },
+    {
+        "question": "Who was the first Filipino saint?",
+        "answers": [
+            {"text": "San Lorenzo Ruiz", "correct": true},
+            {"text": "San Pedro Calungsod", "correct": false},
+            {"text": "Gregorio Aglipay", "correct": false},
+            {"text": "Jaime Cardinal Sin", "correct": false}
+        ]
+    },
+    {
+        "question": "Which Philippine president declared Martial Law in 1972?",
+        "answers": [
+            {"text": "Manuel Roxas", "correct": false},
+            {"text": "Ferdinand Marcos", "correct": true},
+            {"text": "Ramon Magsaysay", "correct": false},
+            {"text": "Carlos P. Garcia", "correct": false}
+        ]
+    },
+    {
+        "question": "Which Philippine island was the last stronghold of Japanese forces during World War II?",
+        "answers": [
+            {"text": "Bataan", "correct": false},
+            {"text": "Mindoro", "correct": false},
+            {"text": "Leyte", "correct": false},
+            {"text": "Corregidor", "correct": true}
+        ]
+    },
+    {
+        "question": "What was the official name of the Philippines during the Spanish colonial period?",
+        "answers": [
+            {"text": "Las Islas Filipinas", "correct": true},
+            {"text": "Republika ng Pilipinas", "correct": false},
+            {"text": "Maharlika", "correct": false},
+            {"text": "Nueva España", "correct": false}
+        ]
+    },
+    {
+        "question": "Which Filipino hero led the longest revolt against Spanish rule?",
+        "answers": [
+            {"text": "Francisco Dagohoy", "correct": true},
+            {"text": "Diego Silang", "correct": false},
+            {"text": "Andres Bonifacio", "correct": false},
+            {"text": "Raja Sulayman", "correct": false}
+        ]
+    },
+    {
+        "question": "Who was the leader of the Philippine delegation in the negotiations for independence from the U.S.?",
+        "answers": [
+            {"text": "Sergio Osmeña", "correct": false},
+            {"text": "Manuel Roxas", "correct": false},
+            {"text": "Manuel L. Quezon", "correct": true},
+            {"text": "Jose P. Laurel", "correct": false}
+        ]
+    }
+]

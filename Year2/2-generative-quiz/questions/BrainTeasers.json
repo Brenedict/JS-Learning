@@ -1,0 +1,182 @@
+[
+    {
+        "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+        "answers": [
+            {"text": "An echo", "correct": true},
+            {"text": "A shadow", "correct": false},
+            {"text": "A dream", "correct": false},
+            {"text": "A ghost", "correct": false}
+        ]
+    },
+    {
+        "question": "A farmer has 17 sheep, and all but 9 run away. How many sheep does he have left?",
+        "answers": [
+            {"text": "9", "correct": true},
+            {"text": "8", "correct": false},
+            {"text": "0", "correct": false},
+            {"text": "17", "correct": false}
+        ]
+    },
+    {
+        "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+        "answers": [
+            {"text": "The letter 'M'", "correct": true},
+            {"text": "A second", "correct": false},
+            {"text": "A shadow", "correct": false},
+            {"text": "A thought", "correct": false}
+        ]
+    },
+    {
+        "question": "A man stands on one side of a river, his dog on the other. The man calls his dog, who immediately crosses the river without getting wet and without using a bridge or boat. How did the dog do it?",
+        "answers": [
+            {"text": "The river was frozen", "correct": true},
+            {"text": "The dog swam very fast", "correct": false},
+            {"text": "There was an invisible bridge", "correct": false},
+            {"text": "The river was very shallow", "correct": false}
+        ]
+    },
+    {
+        "question": "What has to be broken before you can use it?",
+        "answers": [
+            {"text": "An egg", "correct": true},
+            {"text": "A window", "correct": false},
+            {"text": "A promise", "correct": false},
+            {"text": "A lock", "correct": false}
+        ]
+    },
+    {
+        "question": "A man is pushing his car along a road when he comes to a hotel. He immediately knows he is bankrupt. Why?",
+        "answers": [
+            {"text": "He was playing Monopoly", "correct": true},
+            {"text": "His car broke down in front of a bank", "correct": false},
+            {"text": "His hotel burned down", "correct": false},
+            {"text": "He lost his wallet", "correct": false}
+        ]
+    },
+    {
+        "question": "The more you take, the more you leave behind. What am I?",
+        "answers": [
+            {"text": "Footsteps", "correct": true},
+            {"text": "Memories", "correct": false},
+            {"text": "Time", "correct": false},
+            {"text": "Opportunities", "correct": false}
+        ]
+    },
+    {
+        "question": "I am not alive, but I grow; I don’t have lungs, but I need air; I don’t have a mouth, but water kills me. What am I?",
+        "answers": [
+            {"text": "Fire", "correct": true},
+            {"text": "A tree", "correct": false},
+            {"text": "A cloud", "correct": false},
+            {"text": "A candle", "correct": false}
+        ]
+    },
+    {
+        "question": "I have cities but no houses, forests but no trees, and rivers but no water. What am I?",
+        "answers": [
+            {"text": "A map", "correct": true},
+            {"text": "A dream", "correct": false},
+            {"text": "A book", "correct": false},
+            {"text": "An illusion", "correct": false}
+        ]
+    },
+    {
+        "question": "What has hands but can’t clap?",
+        "answers": [
+            {"text": "A clock", "correct": true},
+            {"text": "A statue", "correct": false},
+            {"text": "A puppet", "correct": false},
+            {"text": "A ghost", "correct": false}
+        ]
+    },
+    {
+        "question": "What is full of holes but still holds water?",
+        "answers": [
+            {"text": "A sponge", "correct": true},
+            {"text": "A net", "correct": false},
+            {"text": "A bucket", "correct": false},
+            {"text": "A towel", "correct": false}
+        ]
+    },
+    {
+        "question": "The more of me you take, the more you leave behind. What am I?",
+        "answers": [
+            {"text": "Footsteps", "correct": true},
+            {"text": "Memories", "correct": false},
+            {"text": "Time", "correct": false},
+            {"text": "Secrets", "correct": false}
+        ]
+    },
+    {
+        "question": "What gets wetter the more it dries?",
+        "answers": [
+            {"text": "A towel", "correct": true},
+            {"text": "A sponge", "correct": false},
+            {"text": "A cloud", "correct": false},
+            {"text": "Rain", "correct": false}
+        ]
+    },
+    {
+        "question": "You see a boat filled with people. It hasn’t sunk, but when you look again, you don’t see a single person on board. Why?",
+        "answers": [
+            {"text": "They were all married", "correct": true},
+            {"text": "They jumped overboard", "correct": false},
+            {"text": "The boat was invisible", "correct": false},
+            {"text": "They were hiding", "correct": false}
+        ]
+    },
+    {
+        "question": "A rooster lays an egg on the roof of a barn. Which way does the egg roll?",
+        "answers": [
+            {"text": "Roosters don’t lay eggs", "correct": true},
+            {"text": "It rolls down the right side", "correct": false},
+            {"text": "It rolls down the left side", "correct": false},
+            {"text": "It doesn't roll", "correct": false}
+        ]
+    },
+    {
+        "question": "What is always in front of you but can’t be seen?",
+        "answers": [
+            {"text": "The future", "correct": true},
+            {"text": "The wind", "correct": false},
+            {"text": "A mirror", "correct": false},
+            {"text": "A thought", "correct": false}
+        ]
+    },
+    {
+        "question": "If you drop me, I’m sure to crack, but give me a smile, and I’ll always smile back. What am I?",
+        "answers": [
+            {"text": "A mirror", "correct": true},
+            {"text": "An egg", "correct": false},
+            {"text": "A joke", "correct": false},
+            {"text": "A friend", "correct": false}
+        ]
+    },
+    {
+        "question": "I have keys but open no locks. I have space but no room. You can enter, but you can’t go outside. What am I?",
+        "answers": [
+            {"text": "A keyboard", "correct": true},
+            {"text": "A map", "correct": false},
+            {"text": "A book", "correct": false},
+            {"text": "A safe", "correct": false}
+        ]
+    },
+    {
+        "question": "Which word is spelled incorrectly in every dictionary?",
+        "answers": [
+            {"text": "Incorrectly", "correct": true},
+            {"text": "Dictionary", "correct": false},
+            {"text": "Misspelled", "correct": false},
+            {"text": "Spelling", "correct": false}
+        ]
+    },
+    {
+        "question": "A father and his son were in a car accident. The father died at the scene. The boy was rushed to the hospital, but the surgeon said, 'I can’t operate on this boy, he’s my son.' How is this possible?",
+        "answers": [
+            {"text": "The surgeon is his mother", "correct": true},
+            {"text": "The boy had two fathers", "correct": false},
+            {"text": "The father survived", "correct": false},
+            {"text": "The boy was adopted", "correct": false}
+        ]
+    }
+]

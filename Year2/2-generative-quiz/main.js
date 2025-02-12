@@ -2,12 +2,14 @@ const body_element = document.body;
 
 const questions_container = document.getElementById('questions-container');
 const start_container = document.getElementById('start-container');
+const questionnaires_select = document.getElementById('questionnaires-select');
 
 const question = document.getElementById('question');
 const buttons_grid = document.getElementById('buttons-grid');
 
 const question_number = document.getElementById("question-number");
 const question_results_container = document.getElementById("question-results-container");
+const questionnaire_name = document.getElementById('questionnaire-name');
 
 const end_container = document.getElementById("end-container");
 const score = document.getElementById("score");
@@ -16,40 +18,50 @@ const score_percentage = document.getElementById("score-percentage");
 const correctAudio = new Audio("audio/correct.mp3");
 const incorrectAudio = new Audio("audio/incorrect.mp3");
 
-
 var total_question_count = 0;
 var question_index = 0;
 var total_score = 0;
 
+// Records all correct/incorrect marks
 var quiz_marks_record = [];
 
+// Holds the questions stored within the json files
 let questions = [];
 
+// Ensures the correct question set is fetch upon loading/reloading of the window
 window.onload = ( ) => {
-    total_question_count = questions.length;
-
-    shuffleQuestionSet(questions);
-
-    fetch('questions/Computers1.json')
+    fetch(`questions/${questionnaires_select.options[questionnaires_select.selectedIndex].value}.json`)
         .then( response => response.json())
         .then( json => {
             questions = json;
             total_question_count = questions.length;
-            shuffleQuestionSet(questions);
-
+            shuffleQuestionSet(questions);  
             console.log(questions);
-        
         })
 
         .catch( error => console.error("error loading json: " + error));
 
 };
 
+// Detects change on the select tag and changes the question set accordingly
+questionnaires_select.addEventListener("change", ( ) => {
+    let jsonFile = `questions/${questionnaires_select.value}.json`;
+    fetch(jsonFile)
+        .then( response => response.json())
+        .then( json => {
+            questions = json;
+            total_question_count = questions.length;
+            shuffleQuestionSet(questions);
+            console.log(questions);  
+        })
+        .catch( error => console.error("error loading json: " + error));
+});
+
 function shuffleQuestionSet(question_set) {
     for(let i = 0 ; i < total_question_count - 1 ; i++) {
         for(let j = 0 ; j < total_question_count - 1; j++) {
-            let random = Math.round(Math.random() * 1);
-            if(random == 1) {
+            let random = Math.round(Math.random() * 3);
+            if(random >= 1) {
                 // Swap current question with next
                 let temp = question_set[j];
                 question_set[j] = question_set[j+1];
@@ -77,9 +89,12 @@ function shuffleAnswerSet(answer_set) {
     }
 }
 
-function startQuiz(e) {
+function startQuiz() {
     questions_container.classList.remove("hide");
     start_container.classList.add("hide");
+
+    // Updates the name of the questionnaire to correspond with the selected on
+    questionnaire_name.innerText = questionnaires_select.options[questionnaires_select.selectedIndex].innerText;
     showQuestion(questions[question_index++]);
 }
 
@@ -87,7 +102,7 @@ function endQuiz() {
     end_container.classList.remove("hide");
     questions_container.classList.add("hide");
 
-    // DOM for score portion
+    // DOM Manipulation for score portion
     score.innerText = `YOU SCORED: ${total_score}/${total_question_count}`;
     score_percentage.innerText = `${(total_score/total_question_count*100).toFixed(2)}%`;
 
@@ -99,6 +114,7 @@ function clearQuestionState() {
     body_element.classList.remove("correct");
     body_element.classList.remove("wrong");
     
+    // Removes the button choices
     while(buttons_grid.firstChild) {
         buttons_grid.removeChild(buttons_grid.lastChild);
     } 
@@ -110,10 +126,12 @@ function setNextQuestion() {
         showQuestion(questions[question_index++]);
     } 
 
+    // Tracks if the quiz is already supposed to end
     else endQuiz();     
 }
 
 function displayCorrectAnswersCSS() {
+    // Updates CSS of the button choices after choosing an answer
     buttons_grid.childNodes.forEach(node => {
         if(node.nodeName === "BUTTON") {
             if(node.dataset.correct === "true") {
@@ -123,6 +141,7 @@ function displayCorrectAnswersCSS() {
                 node.classList.add("show-incorrect");
             }
 
+            // Disables the buttons
             node.disabled = true;
             node.style.pointerEvents = "none";
         }
@@ -134,10 +153,12 @@ function selectCorrectAnswer() {
     
     correctAudio.play();
 
-    window.setTimeout(setNextQuestion, 2200);
+    // Next question delay
+    window.setTimeout(setNextQuestion, 2000);
 
     total_score++;
 
+    // Marks the current question to be "correct"
     quiz_marks_record[question_index-1] = true;
 }
 
@@ -146,14 +167,16 @@ function selectWrongAnswer() {
 
     incorrectAudio.play();
 
-    window.setTimeout(setNextQuestion, 2200);
+    // Next question delay
+    window.setTimeout(setNextQuestion, 2000);
 
+    // Marks the current question to be "incorrect"
     quiz_marks_record[question_index-1] = false;
 }
 
 function showQuestion(question_element) {
     // Sets current question number
-    question_number.innerText = `Question ${question_index}`;
+    question_number.innerText = `Question ${question_index} / ${total_question_count}`;
 
     // Sets current question
     question.innerText = question_element.question;
@@ -181,6 +204,7 @@ function showQuestion(question_element) {
 function generateQuizReview(question_set, quiz_marks_record) {
     let i = 0;
 
+    // Creates individual records of correct/incorrect marks gotten per question
     question_set.forEach(item => {
         let question_entry = document.createElement('div');
 
@@ -188,109 +212,14 @@ function generateQuizReview(question_set, quiz_marks_record) {
 
         question_entry.innerText = `Question ${i+1}: ${mark}`;
         question_entry.classList.add("question-entry");
+        
+        // Differentiates css designs based on marks
+        if(quiz_marks_record[i] === true) {
+            question_entry.classList.add("question-entry-correct");
+        }
+        
         question_results_container.appendChild(question_entry);
 
         i++;
     });
 }
-
-// const questions = 
-// [
-//     {
-//         "question": "What does CPU stand for?",
-//         "answers": [
-//             {"text": "Central Processing Unit", "correct": true},
-//             {"text": "Computer Personal Unit", "correct": false},
-//             {"text": "Central Peripheral Unit", "correct": false},
-//             {"text": "Core Processing Utility", "correct": false}
-//         ]
-//     },
-//     {
-//         "question": "Which of the following is an example of an input device?",
-//         "answers": [
-//             {"text": "Keyboard", "correct": true},
-//             {"text": "Monitor", "correct": false},
-//             {"text": "Speaker", "correct": false},
-//             {"text": "Printer", "correct": false}
-//         ]
-//     },
-//     {
-//         "question": "What is the main function of an operating system?",
-//         "answers": [
-//             {"text": "Manages hardware and software resources", "correct": true},
-//             {"text": "Acts as a search engine", "correct": false},
-//             {"text": "Provides power to the computer", "correct": false},
-//             {"text": "Stores all files permanently", "correct": false}
-//         ]
-//     },
-//     {
-//         "question": "Which file extension is commonly used for an image file?",
-//         "answers": [
-//             {"text": ".jpg", "correct": true},
-//             {"text": ".exe", "correct": false},
-//             {"text": ".txt", "correct": false},
-//             {"text": ".mp3", "correct": false}
-//         ]
-//     },
-//     {
-//         "question": "What is the purpose of a firewall in computing?",
-//         "answers": [
-//             {"text": "To block unauthorized access to a network", "correct": true},
-//             {"text": "To store backup files", "correct": false},
-//             {"text": "To speed up the internet connection", "correct": false},
-//             {"text": "To fix hardware issues", "correct": false}
-//         ]
-//     },
-//     {
-//         "question": "Which of the following is NOT an example of an operating system?",
-//         "answers": [
-//             {"text": "Microsoft Office", "correct": true},
-//             {"text": "Windows", "correct": false},
-//             {"text": "Linux", "correct": false},
-//             {"text": "macOS", "correct": false}
-//         ]
-//     },
-//     {
-//         "question": "What does HTTP stand for?",
-//         "answers": [
-//             {"text": "Hypertext Transfer Protocol", "correct": true},
-//             {"text": "High-Tech Transmission Process", "correct": false},
-//             {"text": "Hyperlink and Text Transfer Program", "correct": false},
-//             {"text": "Home Technology Transfer Protocol", "correct": false}
-//         ]
-//     },
-//     {
-//         "question": "Which of these storage devices has the largest capacity?",
-//         "answers": [
-//             {"text": "Hard Disk Drive (HDD)", "correct": true},
-//             {"text": "CD-ROM", "correct": false},
-//             {"text": "USB Flash Drive", "correct": false},
-//             {"text": "Floppy Disk", "correct": false}
-//         ]
-//     },
-//     {
-//         "question": "Which programming language is primarily used for web development?",
-//         "answers": [
-//             {"text": "JavaScript", "correct": true},
-//             {"text": "Python", "correct": false},
-//             {"text": "C++", "correct": false},
-//             {"text": "Swift", "correct": false}
-//         ]
-//     },
-//     {
-//         "question": "Which key combination is used to copy text on a Windows computer?",
-//         "answers": [
-//             {"text": "Ctrl + C", "correct": true},
-//             {"text": "Ctrl + V", "correct": false},
-//             {"text": "Ctrl + X", "correct": false},
-//             {"text": "Ctrl + Z", "correct": false}
-//         ]
-//     },
-//     {
-//         "question": "Who is the Guinness World Record holder for fastest man alive?",
-//         "answers": [
-//             {"text": "Usain Bolt", "correct": true},
-//             {"text": "Carl Lewis", "correct": false},
-//         ]
-//     }
-// ];
