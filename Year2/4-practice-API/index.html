@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // NEWSAPI
+        const API_KEY = "22c71ed49f664f848bb3d8f7dd6eea90";
+        // const NEWS_SOURCE = "";
+        // var url = 'https://newsapi.org/v2/top-headlines?' +
+        // //   'sources=bleacher-report&' +
+        // //   'category=sports&' +
+        //   'country=us&' +
+        //   'apiKey=' + APP_KEY;
+        // var req = new Request(url);
+        // fetch(req)
+        //     .then(function(response) {
+        //         console.log(response.json());
+        //     })
+
+        // const url = `https://newsapi.org/v2/top-headlines?category=technology&country=ph&apiKey=${API_KEY}`;
+
+        // const keyword = "Trump"; // Change to any keyword
+        // const url = `https://newsapi.org/v2/top-headlines?q=${keyword}&language=en&sortBy=publishedAt&apiKey=${API_KEY}`;
+
+        // const url = `https://newsapi.org/v2/top-headlines?sources=the-verge,techcrunch,wired&apiKey=${API_KEY}`;
+        const body = document.getElementsByTagName('body')[0];
+        const url = `https://newsapi.org/v2/top-headlines?category=sports&apiKey=${API_KEY}`;
+
+        let articles = [];
+        fetch(url)
+        .then(response => response.json())
+        .then(data => data.articles.forEach(article => {
+            let imgChild = document.createElement('img');
+            imgChild.src = article.urlToImage;
+            
+            if(imgChild.src) {
+                body.appendChild(imgChild);
+            }
+        }))
+
+        .catch(error => console.error(error));
+    </script>
+</body>
+</html>
